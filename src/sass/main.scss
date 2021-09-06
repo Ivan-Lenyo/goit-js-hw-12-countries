@@ -1,0 +1,46 @@
+body {
+  background-color: rgb(235, 240, 236);
+}
+
+form {
+  margin: 0 auto;
+  width: 500px;
+  padding: 2em;
+}
+
+label {
+  display: inline-block;
+  text-align: center;
+  font-size: 18px;
+  margin-bottom: 2px;
+  font-weight: bold;
+}
+
+input {
+  font: 1em sans-serif;
+  width: 350px;
+  box-sizing: border-box;
+  border: 1px solid #999;
+}
+
+input:focus {
+  border-color: #000;
+}
+
+.country_item {
+  font-size: 18px;
+  margin-bottom: 2px;
+  font-weight: bold;
+}
+
+.country_name {
+  margin-left: 30px;
+}
+
+.country_flag {
+  margin-left: 20px;
+}
+
+.country_card {
+  display: flex;
+}
